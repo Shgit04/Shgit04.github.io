@@ -112,6 +112,13 @@ h2 {
   text-decoration: underline;
 }
 
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
 /* Footer */
 footer {
   background-color: #004080;
