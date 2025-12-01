@@ -117,12 +117,17 @@ h2 {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   align-items: center;
+  max-width: 900px;
+  margin: auto;
 }
 
 .about-image img {
-  max-width: 100%;
+  max-width: 300px;
+  width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
